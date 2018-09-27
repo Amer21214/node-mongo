@@ -34,5 +34,5 @@ MongoClient.connect(url, {useNewUrlParser: true}, (err, client) => {
         console.log("Couldn't get results, sorry.");
     });
 
-    client.close();
+    // client.close();
 })
